@@ -6,6 +6,6 @@ package create.factory.commonfactory;
 public class PersonImpl implements Person {
     @Override
     public void create(String name) {
-        System.out.println("创建了CT这个SB");
+        System.out.println("创建了CT这个帅哥");
     }
 }

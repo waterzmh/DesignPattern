@@ -14,7 +14,6 @@ public class ConcreteIterator implements Iterator {
     public ConcreteIterator(ConcreteAggregate agg){
         this.agg = agg;
         this.size = agg.size();
-        index = 0;
     }
     /**
      * 迭代方法：返还当前元素

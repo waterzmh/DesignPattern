@@ -15,7 +15,7 @@ public class PropertiesReader {
     public Map<String,String>  getProperties(){
         Properties props=new Properties();
         Map<String,String> map=new HashMap<>();
-        InputStream in=getClass().getResourceAsStream("Personname.properties");
+        InputStream in=this.getClass().getResourceAsStream("PersonName.properties");
         try {
             props.load(in);
         } catch (IOException e) {

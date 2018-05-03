@@ -35,7 +35,7 @@ public class ProxyFactory{
 //                    }
 //                }
                     //lambda表达式？？？？晦涩难懂啊
-                    (Object proxy, Method method, Object[] args)->{
+                    ( proxy, method, args)->{
                         System.out.println("开始事务2");
                         //执行目标对象方法
                         Object returnValue = method.invoke(target, args);

@@ -9,7 +9,7 @@ import java.util.Map;
 //中介者：总经理
 public class President implements Mediator{
 
-    private Map<String,Department> map=new HashMap<String,Department>();
+    private Map<String,Department> map=new HashMap<>();
 
     @Override
     public void register(String name, Department d) {

@@ -9,7 +9,7 @@ import java.util.List;
 public class Test {
     @org.junit.Test
     public void flyweighttest(){
-        List<Character> compositeState = new ArrayList<Character>();
+        List<Character> compositeState = new ArrayList<>();
         compositeState.add('a');
         compositeState.add('b');
         compositeState.add('c');
