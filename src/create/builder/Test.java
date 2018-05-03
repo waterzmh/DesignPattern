@@ -15,6 +15,5 @@ public class Test{
         logger.log(Level.INFO,builderObj.getLovebook());
         builderObj.setLovenum(12321);
         logger.log(Level.INFO, String.valueOf(builderObj.getLovenum()));
-
     }
 }
