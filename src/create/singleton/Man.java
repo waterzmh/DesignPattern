@@ -10,14 +10,14 @@ package create.singleton;
 public enum  Man {
     INSTANCE("name:zmh",666);
     private String name;
-    private int num;
-     Man(String name,int num){
+    private int age;
+     Man(String name,int age){
        this.name=name;
-       this.num=num;
+       this.age=age;
     }
     public void getMan(){
         System.out.println(getName());
-        System.out.println(getNum());
+
     }
 
     public String getName() {
@@ -28,11 +28,11 @@ public enum  Man {
         this.name = name;
     }
 
-    public int getNum() {
-        return num;
+    public int getAge() {
+        return age;
     }
 
-    public void setNum(int num) {
-        this.num = num;
+    public void setAge(int age) {
+        this.age = age;
     }
 }

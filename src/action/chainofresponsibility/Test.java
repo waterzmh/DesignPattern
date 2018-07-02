@@ -2,6 +2,7 @@ package action.chainofresponsibility;
 
 /**
  * Created by Administrator on 2017/11/30.
+ * 责任链模式
  */
 public class Test {
     @org.junit.Test
