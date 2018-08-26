@@ -41,5 +41,6 @@ public class Test {
     @org.junit.Test
     public void masterBranch1(){
         System.out.println("master branch update 1");
+        System.out.println("master branch update 2");
     }
 }
