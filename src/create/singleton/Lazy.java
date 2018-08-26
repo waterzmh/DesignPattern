@@ -3,7 +3,7 @@ package create.singleton;
 public class Lazy {
     private String name;
     private int  age;
-    private static Badmash badmash=null;
+    private static Hungry hungry=null;
 
     public String getName() {
         return name;
@@ -20,7 +20,7 @@ public class Lazy {
     public void setAge(int age) {
         this.age = age;
     }
-    public static Badmash getBadmash(){
-        return badmash==null?new Badmash():badmash;
+    public static Hungry getHungry(){
+        return hungry==null?new Hungry():hungry;
     }
 }

@@ -1,9 +1,9 @@
 package create.singleton;
 
-public class Badmash {
+public class Hungry {
     private String name;
     private int  age;
-    private static  Badmash badmash=new Badmash();
+    private static Hungry hungry=new Hungry();
 
     public String getName() {
         return name;
@@ -20,7 +20,7 @@ public class Badmash {
     public void setAge(int age) {
         this.age = age;
     }
-    public static Badmash getBadmash(){
-        return badmash;
+    public static Hungry getHungry(){
+        return hungry;
     }
 }
