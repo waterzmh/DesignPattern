@@ -38,4 +38,8 @@ public class Test {
         System.out.println(5);
         System.out.println(7);
     }
+    @org.junit.Test
+    public void master(){
+        System.out.println("master update 1");
+    }
 }
