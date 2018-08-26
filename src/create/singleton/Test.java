@@ -53,5 +53,6 @@ public class Test {
     @org.junit.Test
     public void master() {
         System.out.println("master update 1");
+        System.out.println("master update 2");
     }
 }
