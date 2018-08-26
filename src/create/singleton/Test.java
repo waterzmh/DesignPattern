@@ -28,5 +28,6 @@ public class Test {
         Badmash.getBadmash().setAge(2);
         logger.log(Level.INFO,Badmash.getBadmash().getName());
         logger.log(Level.INFO,String.valueOf(Badmash.getBadmash().getAge()));
+        System.out.println(1);
     }
 }
