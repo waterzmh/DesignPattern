@@ -43,7 +43,6 @@ public class Test {
         System.out.println("master branch update 1");
         System.out.println("master branch update 2");
         System.out.println("master branch update 3");
-        System.out.println("master branch update 3");
     }
     @org.junit.Test
     public void master(){
